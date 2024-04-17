@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: customer
+    description: customer table
+    columns:
+      - name: customer_id
+        description: Unique identifier for the customer
+        tests:
+          - unique
+          - not_null
+      - name: first_name
+        description: first name of the customer
+      - name: last_name
+        description: last name of the customer
+      - name: full_name
+        description: Unique identifier for the customer
+      - name: data_loaded_at
+        description: Unique identifier for the customer
+      - name: total_orders
+        description: Unique identifier for the customer

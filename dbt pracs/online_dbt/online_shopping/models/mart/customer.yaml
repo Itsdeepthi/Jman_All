@@ -1,0 +1,20 @@
+version: 2
+
+models:
+  - name: customer
+    description: Customer Table
+    columns:
+      - name: CustomerID
+        description: Unique identifier for the customer
+        tests:
+          - unique
+          - not_null
+      - name: Provice
+        description: Province of the customer
+      - name: Region
+        description: Region of the customer
+      - name: CustomerSegment
+        description: Job of the customer
+      - name: CustomerName
+        description: Name for the customer
+      
