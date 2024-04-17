@@ -1,0 +1,27 @@
+.moveDiv {
+    margin-left: 200px;
+  }
+
+  #menu{
+    background: linear-gradient(to bottom, #1E115C, #3D1D65, #6A2D71, #D6528B);
+    color: white;
+}
+
+
+.p-menuitem-text {
+    color: white !important;
+}
+
+.p-menuitem-icon{
+    color: white !important;
+}
+
+.pink-background {
+    background-color: rgb(179, 63, 83) !important;
+  }
+
+  .accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #29008a;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
